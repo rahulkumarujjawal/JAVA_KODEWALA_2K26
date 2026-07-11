@@ -10,65 +10,24 @@
 
 Welcome to my Java learning repository.
 
-java-fullstack-learning
+JAVA_KODEWALA_2K26
 │
-├── 01-core-java
-│   ├── variables
-│   ├── data-types
-│   ├── operators
-│   ├── loops
-│   ├── arrays
-│   ├── methods
-│   ├── strings
-│   ├── oops
-│   ├── constructors
-│   ├── inheritance
-│   ├── polymorphism
-│   ├── abstraction
-│   ├── encapsulation
-│   ├── interface
-│   ├── exception-handling
-│   ├── collections
-│   ├── multithreading
-│   ├── file-handling
-│   └── java8
-│
-├── 02-dsa
-│   ├── arrays
-│   ├── strings
-│   ├── linked-list
-│   ├── stack
-│   ├── queue
-│   ├── recursion
-│   ├── searching
-│   ├── sorting
-│   └── patterns
-│
-├── 03-sql
-│   ├── basic-queries
-│   ├── joins
-│   ├── subqueries
-│   ├── procedures
-│   ├── triggers
-│   └── interview-questions
-│
-├── 04-jdbc
-├── 05-servlet-jsp
-├── 06-hibernate
-├── 07-spring
-├── 08-spring-boot
-├── 09-microservices
-│
-├── 10-projects
-│   ├── library-management-system
-│   ├── hotel-management-system
-│   ├── employee-management-system
-│   └── inventory-management-system
-│
-├── screenshots
-├── notes
-├── README.md
-└── .gitignore
+├── day_01
+├── day_02
+├── day_03
+├── Array
+├── Constructor
+├── ConstructorChaining
+├── OOps
+├── Switch-Case
+├── Java-Learning-2k26
+├── Java-Weekend-Hackathon-Test
+├── DO-CODE-DAILY
+├── E-ComOrder-App
+├── java-project-portfolio
+├── hdfc-bank
+├── state-bank-of-India
+└── README.md
 
 ## Goals
 
