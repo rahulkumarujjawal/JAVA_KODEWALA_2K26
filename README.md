@@ -10,23 +10,65 @@
 
 Welcome to my Java learning repository.
 
-## Topics Covered
-
-- Variables
-- Data Types
-- Operators
-- Control Statements
-- Loops
-- Arrays
-- Methods
-- OOP
-- Constructors
-- Strings
-- Collections
-- Exception Handling
-- Multithreading
-- Java 8
-- JDBC
+java-fullstack-learning
+│
+├── 01-core-java
+│   ├── variables
+│   ├── data-types
+│   ├── operators
+│   ├── loops
+│   ├── arrays
+│   ├── methods
+│   ├── strings
+│   ├── oops
+│   ├── constructors
+│   ├── inheritance
+│   ├── polymorphism
+│   ├── abstraction
+│   ├── encapsulation
+│   ├── interface
+│   ├── exception-handling
+│   ├── collections
+│   ├── multithreading
+│   ├── file-handling
+│   └── java8
+│
+├── 02-dsa
+│   ├── arrays
+│   ├── strings
+│   ├── linked-list
+│   ├── stack
+│   ├── queue
+│   ├── recursion
+│   ├── searching
+│   ├── sorting
+│   └── patterns
+│
+├── 03-sql
+│   ├── basic-queries
+│   ├── joins
+│   ├── subqueries
+│   ├── procedures
+│   ├── triggers
+│   └── interview-questions
+│
+├── 04-jdbc
+├── 05-servlet-jsp
+├── 06-hibernate
+├── 07-spring
+├── 08-spring-boot
+├── 09-microservices
+│
+├── 10-projects
+│   ├── library-management-system
+│   ├── hotel-management-system
+│   ├── employee-management-system
+│   └── inventory-management-system
+│
+├── screenshots
+├── notes
+├── README.md
+└── .gitignore
 
 ## Goals
 
