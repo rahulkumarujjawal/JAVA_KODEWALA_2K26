@@ -1,23 +1,40 @@
 # JAVA_KODEWALA_2K26
 
 
+# java-mastery
+☕  A comprehensive Java learning and development repository featuring Core Java, OOP, Collections, Exception Handling, Multithreading, Java 8+, JDBC, coding exercises, interview preparation, and practical projects. Focused on clean code, problem-solving, and continuous improvement through hands-on practice.
 
-This repository contains my Java learning journey from Basic to Advanced.
+
+
+# Java Learning Journey ☕
+
+Welcome to my Java learning repository.
 
 ## Topics Covered
 
-- Java Basics
 - Variables
+- Data Types
 - Operators
-- If Else
-- Switch
+- Control Statements
 - Loops
 - Arrays
-- Strings
-- OOPs
+- Methods
+- OOP
 - Constructors
-- Inheritance
-- Polymorphism
-- Abstraction
-- Encapsulation
-- Projects
+- Strings
+- Collections
+- Exception Handling
+- Multithreading
+- Java 8
+- JDBC
+
+## Goals
+
+- Practice Java daily
+- Build strong Core Java fundamentals
+- Solve coding problems
+- Prepare for interviews
+- Build mini projects
+
+⭐ This repository is updated regularly as I continue my Java learning journey.
+
