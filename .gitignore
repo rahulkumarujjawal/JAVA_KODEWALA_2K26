@@ -1,0 +1,37 @@
+
+
+# Java
+*.class
+
+# Eclipse
+.metadata/
+bin/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+
+# Java
+*.class
+
+# Eclipse
+.metadata/
+bin/
+
+# Eclipse Application
+Eclipse.app/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary Folder
+_pasted_code_/
+
+Eclipse.app/
+_pasted_code_/
