@@ -11,6 +11,7 @@ public class CardPayment extends Payment {
 	}
 	public void validateCard() {
 		System.out.println("Card Validated");
+		System.out.println("=====Thank You=======");
 	}
 
 }
