@@ -5,13 +5,13 @@ public class Grocery  implements ECommerceProduct
 
 	@Override
 	public void addProduct() {
-		// TODO Auto-generated method stub
+		System.out.println("Grocery.ECommerceProduct");
 		
 	}
 
 	@Override
 	public void removeProduct() {
-		// TODO Auto-generated method stub
+		System.out.println("ECommerceProduct.removeProduct");
 		
 	}
 
