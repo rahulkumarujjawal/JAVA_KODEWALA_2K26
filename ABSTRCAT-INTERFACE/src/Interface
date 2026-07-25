@@ -1,0 +1,71 @@
+
+// static == > 
+
+/* Interface == >  100 contracted based 
+ * java 8 if dont allowed :- its provide all code disturbed 
+ * 
+ * java 7 :- all abstract and 100 contracted based 
+ * java 8:- default method (optional ) when you designined that time required ==> static :- utility fuunctionalility an
+ * removing code duplicate between the class
+ 
+ * java 9 :- private method --> code dubliate between the static and default method 
+ 
+ * interface :- only constant dont allowed concerate method till java 7
+ * default only allowed inside the interface 
+ * 
+ * the purpose in private in java 9  ==> They reduce code duplication
+ * 
+ */
+
+before java 7 code Dublicacy  
+Java 7,==>  it will fail because it required all the classes to be implemented.
+java 8 :- introduce a… optional matter, Whichever class want, will override. Will?Override. Candace total.So that's public.
+Default == > its a Optional if you want to implemented they you can override  classes , not breaking any classes
+
+
+interface in Java 8===>, you can have a static method inside. This method can be written inside.
+written inside a static method of interface.  from Java, 8
+
+static method inside interface. So, code duplicacy between the classes will not be there. And then it's proper structure,
+
+Static method ==> will be always performing common utility functionality. Does this depend on object?
+
+how to call static method :- IntercaName.utilMethodname ==> so dont reuired util class  
+removed the duplicacy between your child classes.
+And in your Parent class , you've got the duplication. lot of some code will comes  Because this code is duplicate of this one.
+and  Removed the duplicacy by introducing static method, In Java 8.
+
+But, now we are allowing static method, people keep on writing code. And they cannot refactor. They cannot write common functionality in another method. They cannot write.
+so this and this method both are doing? Intrexable database, and the code is common.
+Buddhist? Common.
+This was a miss in Java 8.
+
+ 
+
+Java 09 :- Launch PRIVATE Method   ==> private method will solve code dublicacy within Interface
+
+If you are using inside is static, it can be static as well. So, private method can be static as well, non-static. 
+
+private method can be reused   ==> code duplicates be resolved within the… interface.
+
+Because of default and static.
+
+Purpose of private ? Remove code duplicacy Interface
+
+Purpose of static? Remove code duplicacy between the classes.
+
+ when you design system, you defind   all the abstract method,  and this one is And that will be 100% contact-based implementation.
+ 
+using default methods so that whoever wants will implement. It will not break your existing implement. That's why?
+you cannot solve the problem using abstract cell. From the day one, you should not compare. If you have a common requirement, then definitely from day one, you have
+abstract method.
+
+==> From day one, you have 5 requirements, all are the abstract. That means you create an interface. After a couple of years, you might
+==================================================================================================================================================================================================
+
+Might be 20 times in interface, because you have 20 default method, or a static method, which are connected to the database.
+And every time, every method needs to write its own database logic. And database logic remains the same.
+So that duplicacy?
+introduced in Java 8 because of static and default, and now it is being removed using private. The purpose of private is
+Remove or duplicacy within interface.
+Purpose of static? Remove code duplicacy between the classes.

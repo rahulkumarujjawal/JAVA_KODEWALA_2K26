@@ -1,0 +1,151 @@
+ package com.kodewala.abstracts;
+
+public class Account {
+
+
+
+	/*
+	 * 
+	 * variables --> hold the  values / state i.g ----> balance = 120000;
+	 * +
+	 * 
+	 * Methods(What class will do ) --> task or work -->
+	 * Method will use the balance ad perform  the fund transfer
+	 * balance  =  balance -some amount 
+	 * balance = balance + some amount 
+	 * 
+	 * 
+	 * 
+	 * Method and Implementation 
+	 * 
+	 * Abstract class === > it means what do be done .
+	 */
+	
+	
+	public void productDetails() {     // task (what and how )    //    This is a variables and  method inside the class 
+	
+		// doing productDeatils 
+		
+		
+
+Abstract Class  ==> will decide the what Functioanlities to be implemented 	
+
+==> Child of Abstract will decide how need to be done. 
+
+==> If child class is not happy, can overwrite it, can? override it.
+==>if my class want to force its child classes to implement certain functionality. They will make use of abstract method
+
+child of abstract class will  decide how the functioanlities to be implemented	
+		
+		
+whether we are developing system.
+We will have an abstract class with certain methods, and those methods must be implemented by Child class.		
+		
+	}
+}
+
+
+
+| Abstract Class                              | Non-Abstract Class (Concrete Class) |
+| ------------------------------------------- | ----------------------------------- |
+| May be incomplete                           | Must be complete                    |
+| Cannot create an object                     | Can create an object                |
+| Uses the `abstract` keyword                 | Does not use the `abstract` keyword |
+| Can have abstract methods                   | Cannot have abstract methods        |
+| Can have concrete methods                   | Can have concrete methods           |
+| Used as a blueprint                         | Used to create actual objects       |
+| Must be extended by child classes           | Can be used directly                |
+| Child class must implement abstract methods | No such requirement                 |
+--------------------------------------------------------------------------------------
+ 
+ Abstract :- setting of contract 
+ 
+ seeting  partial  conceret method
+ 
+ 
+ 
+ Interface :- before java 8 :- no common  partial class ,abstract method dont have any common functionallity 
+ 
+ no create object ,no constructor,,only constant allowed  ,and abstract method allowed , no instance varibale here 
+ interfcae just as contract ,
+ 
+ 
+ its a not provide common  ,all impletention in child class:
+ ==============================================================================================================================================
+ Before java :- 8 
+If you're giving some features which are applicable to some of the classes. For some of the bank here. And you're adding that functionality inside?
+Your interface, because interface is 100% contact-based. Whoever implemented must agree, and… must agree and implement all the functionality. Now, our Raman
+RBA said that this is applicable only for Grammy Bank. We have interface-based implementation. We added the print passbook in the interface.
+Now, this is saying all banks need to be implemented, whether you implement or not, but let's keep the empty method also.
+Indrait doesn't know whether you I have provided logic or not, but… Empty methods would be there.
+Now, these are necessary.
+And this problem was there from last?
+20, yes.
+ ==============================================================================================================================================
+ Now java : 08==>They introduced a method called? default method. Now, this default method will have body.
+ 
+ Diffolt for the access modified doesn't have any keyword.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ | Element     | Naming Convention        | Example             |
+| ----------- | ------------------------ | ------------------- |
+| Package     | lowercase                | `com.tcs.employee`  |
+| Class       | PascalCase               | `Employee`          |
+| Interface   | PascalCase               | `PaymentService`    |
+| Constructor | Same as Class            | `Employee()`        |
+| Method      | camelCase (verb)         | `calculateSalary()` |
+| Variable    | camelCase                | `employeeName`      |
+| Object      | camelCase                | `employee`          |
+| Constant    | UPPER_SNAKE_CASE         | `MAX_SIZE`          |
+| Enum        | PascalCase               | `OrderStatus`       |
+| Enum Value  | UPPER_SNAKE_CASE         | `PENDING`           |
+| Boolean     | camelCase (`is/has/can`) | `isActive`          |
+ 
