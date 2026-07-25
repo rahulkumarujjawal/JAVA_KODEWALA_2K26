@@ -2,11 +2,11 @@ package com.bankOfIndia.account;
 
 public class Account {
 
-	// all the data/varibales should be privated
+	// all the data/variables should be private
 
 	private String name;
 	private int balance;
-	// if sombody wants to modify the using public method
+	// if somebody wants to modify the using public method
 
 	public String getName() { // get the name
 		return name;

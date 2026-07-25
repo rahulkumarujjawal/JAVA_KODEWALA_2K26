@@ -1,0 +1,68 @@
+
+Method Overloading :- 
+Creating multiple methods with the same name in the same class, but with different parameter lists.
+
+
+
+One Name
+
+↓
+
+Many Behaviors
+
+↓
+
+Method Overloading
+
+
+The parameter list must differ in one or more of these:
+
+Number of parameters
+Data type of parameters
+Order of parameters (when types are different)
+
+
+Rules of Method Overloading
+01 :- Method name must be same. 
+example:- add()
+add(int a)
+add(int a,int b)
+add(int a,int b,int c)
+ 02 :-  Parameters must be different.
+data types 
+  
+add(int,String)
+add(String,int)
+
+Only return type changed.
+
+* if a static method  :- not a overriding  this is a  
+ * method hiding  Static method will be hidden in the child class.
+ * not override => static and private 
+ * 
+ * It's not the example of overriding, because static cannot be What would he do?
+ Overridden happens at runtime 
+static belongs to class.
+And static will be decided.
+At the time of compilation only, which method to be called.
+
+Why do we need overloading?
+We want to give flexibility to the caller. We want to give the flexibility to the…
+
+
+Provide the flexibility to the caller.
+
+caller.
+
+
+Why this is called runtime polymorphism?  ==> The Actual Method Happend  decision which method to call.
+at the runtime. The actual decision happened.
+
+
+decision taken at the?
+Runtime only, this isn't taken at the… Runtime only.
+
+Method overloading is compile time polymorphism. Why it is called runtime polymorphism? Becayse The decision taken at the runtime only.
+
+
+

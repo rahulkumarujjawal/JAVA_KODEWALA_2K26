@@ -1,0 +1,50 @@
+Opps :- 
+Polymorphism :> Meaningful.  Multiple forms? Using method overriding.
+You will be able to achieve polymorphism, right? So let's say you have to take decision, you have to take.
+This is a… Which functionality to execute?
+Based on the object.
+
+
+your Java will automatically take the decision. You don't have to write if-else. You don't have to write…
+If else.
+
+polymorphism is nothing based on the object. Your Java take the decision which method to call.
+Based on the object.
+
+based on the actual object method will be called. 
+if we have inheritance. So for polymorphism, inheritance is Prerequisite.  
+ 
+changing the function that you overwrite    
+
+Encapsulation ====> we were hiding the Data.
+Abstarctions :- Hide the implementation, or logic  core implementation, you need to hide. Core implementation, Hide
+
+Abstraction  ==> Hiding the implementations details annd  exposing the required functionality to the user.
+
+
+
+give just a required functionality to the ==> User or other classes. User or other classes. And hide your coore implementation.
+ 
+If you're not hiding these functionalities, so…  ==> 
+These functionalities will be directly called by user class.  ==> payment class this class will not have much control. This class will not have Much control.
+Expose the required functionalities, hide your core functionalities ==> Hide your poor functionality.
+
+
+abstract  "- what functionalities to be implemented :_-  child of abstract class will be decide how the functions to be implemented 
+java dont allow the crete object of abstarct class t becase  this is a partittaly implemented \\ help of create obejecct by defolt constructores 
+
+ makeing object == >  through contrustor chaining and child class help ==>   how to know deffolt constructores call
+ 
+ 
+ abstrcat vs final  
+ abstrct will extended  -- final not extended 
+ 
+
+
+
+
+
+
+
+ 
+ 

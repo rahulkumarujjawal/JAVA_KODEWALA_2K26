@@ -2,7 +2,7 @@ package com.inheritance.sbi.account;
 
 public class SavingAccount extends Account {
 
-	// this classs will be able to reuese all the functionalities of its parents
+	// this class will be able to reuse all the functionalities of its parents
 	// class (Account)
 	
 	int rate = 5;

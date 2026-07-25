@@ -4,7 +4,7 @@ public class Child extends Father {
 
 	int income;
 
-	public void fatherDetails() { // this is curerent implementation
+	public void fatherDetails() {                         // this is curerent implementation
 		super.fatherDetails();
 		System.out.println(this);
 		// System.out.println(this.model + "Boos is mood On "); // find the which object

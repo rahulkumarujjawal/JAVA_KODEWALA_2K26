@@ -2,10 +2,6 @@ package com.shoping.myntra.products;
 
 public class ClothingProducts extends Product {
 	
-	
-	
-	
-	
 	String color = "all Type";
 	String brand = "jockey";
 	int  size = 32;
