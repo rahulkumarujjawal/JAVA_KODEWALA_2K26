@@ -4,33 +4,31 @@ public class ElectronicProduct  implements ECommerceProduct{
 
 	@Override
 	public void addProduct() {
-		// TODO Auto-generated method stub
+		System.out.println("ElectronicProduct.Deatils");
 		
 	}
 
 	@Override
 	public void removeProduct() {
-		// TODO Auto-generated method stub
+		
+		System.out.println("ElectronicProduct.removeProduct");
 		
 	}
 
 	@Override
 	public void displayProduct() {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void buyProduct() {
-		// TODO Auto-generated method stub
 		
 	}
 
 
 	@Override
 	public void addTOCart() {
-		// TODO Auto-generated method stub
-		
+  		
 	}
 
 }
