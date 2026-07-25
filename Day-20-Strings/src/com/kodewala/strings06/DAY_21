@@ -1,0 +1,71 @@
+String Literal :-- String s  = "rahul ujjawal";  ---> SCP(before creating object  in scp it check 
+if objects is already exits or  not ,if exitsthen it will 
+not create and statrt refering same object.
+using new  keyword   =  Employee e new  = Employee
+string  S1  = new String ("rahul");
+
+a. One object created in scp === > "hello"
+b. Object created in heap and newly created(Heap) will be reffered by s1
+
+before creating object, it will check whether that object is there in the pool or not. If it is there.
+It will not… It will yet
+
+same object, same address.
+
+string objects are immutable.Immutable means you cannot modify,
+but if you try to modify, it will give you new  object will created .
+
+String s4 = "rahul ujjawal";
+if required modify s4 ==> 
+then we used concat  ==> might have some plus operator,
+s4.conact = "rahul ujjawal";
+ ==> 
+this is modify an concat create a new object;
+
+city.concat(" NCR");
+
+System.out.println(city); 
+ ==> Because concat() returns a new String. It does not change the existing one.
+concat():-  never changes the original String.
+concat :-means adding two  existing things, 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+you have to explain immutability concept, new object will be created,
+ but there's no reference, so S1 is still pointing to.
+S? 4, correct? That's what it… The logistics will point to S4.
+String City called Delhi, okay? So, where it will go?
+SCP. Why it is going to SCP?Because of literal double quote.
+---------------------------------------------------------------------
+
+CONCAT is the method which will append something, it will add to existing, and adding  something
+concat internally store in heap area
+
+ 
+Whenever we are creating a new object, there should be somebody who should refer the reference name.
+
+public class Test {
+public static void main(String[] args) {
+String name = "Rahul ";
+name.concat("Kumar");
+System.out.println(name);
+
+    }
+}
+Stack Memory                 String Constant Pool (SCP)
+name  --------------------->  "Rahul"
+here name will be object thats whay saving  in object
+
+when a required a multipale object
+
+really interested in the identity. That means I want multiple objects with the same content, 
+for some use case. Maybe they are moving the same person from location 1 to another location.
+Okay? Or maybe they want to calculate some difference. You understood, right? So wherever your 
+identity matters, that means beyond content, you want multiple objects. 
+There will be a lot of use cases in the industry.Use this thing, new keyword.
+If you want uniqueness, okay? You just want… you're interested in this value, not…
+the number of objects, not the identity, right? You create literacy. That is why they have allowed
+Object creation inside, heap as well.
+
+
+
+

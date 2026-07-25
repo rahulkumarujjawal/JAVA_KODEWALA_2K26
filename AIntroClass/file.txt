@@ -1,0 +1,38 @@
+ 
+ javac AIntroClass/pwc/StudentPgfood.java  -- compile 
+ java AIntroClass.pwc.StudentPgfood   ---run
+
+Jis folder se package tree start hoti hai, 
+uske parent/root folder me khade hokar java packageName.ClassName
+
+ core_java_kodewala   ← ROOT
+└── AIntroClass
+    └── pwc
+        └── StudentPgfood.java
+
+root wo folder hoga jiske andar AIntroClass pada ho. ✅
+
+core_java_kodewala
+└── AIntroClass
+    ├── day1
+    │    └── Test.java
+    └── pwc
+         └── StudentPgfood.java
+
+       
+
+
+core_java_kodewala   ← ROOT
+│
+└── AIntroClass
+    │
+    ├── day1
+    ├── day2
+    ├── day3
+    ├── day4
+    └── pwc
+         └── StudentPgfood.java
+
+
+
+

@@ -1,0 +1,126 @@
+static {
+ 
+
+}
+
+static block ==> To run Java program, class will be loaded, class will be loaded into memory.
+then main method will be called,  See, what happens? Any static block will get executed just after loading that class.
+before calling Method. Before calling? main method.
+
+once class loaded, immediately this will get executed.
+
+Then main method will be… called. The main method 
+
+Static will get executed only once. Static will get executed only once. Just…
+After loading the class into memory.
+Static block, main method.
+Then constructor
+
+what is purpose of static block
+
+{
+
+ system.out.println("iib");    // this is iib
+}
+
+IAB will get executed For every object creation.if object create 5 times iib will execute 5 times
+
+iib second line inside the constructor second line will be called 
+
+ whenever you create one object, IIB will be called once
+ TWO object -- > then twise 
+ 
+ 
+ IIb will get executed every time when you create object. Iib will get executed.
+ 
+ SIB once per collapse. IIB once per object.
+ 
+ What kind of code you're writing inside IIB?
+Anything which is required before creating object. Inside SIB, anything which you required for entire functionality in the class, 
+ 
+ So… mostly inside SIB, you will have
+Database connection, file connection, some other common activity.
+Inside IIB, you want to initialize something before your object is created, okay? You want to set something, anything is fine, 
+
+| SIB (Static Initialization Block)         | IIB (Instance Initialization Block)  |
+| ----------------------------------------- | ------------------------------------ |
+| `static { }`                              | `{ }`                                |
+| Runs only once when the class is loaded   | Runs every time an object is created |
+| Used for class-level initialization       | Used for object-level initialization |
+| Cannot directly access instance variables | Can access instance variables        |
+------------------------------------------------------------------------------------
+
+SIB (Static Initialization Block) = "Runs once for the class."
+IIB (Instance Initialization Block) = "Runs once for every object."
+
+
+| Concept               | Example               | Purpose                                                                              |
+| --------------------- | --------------------- | ------------------------------------------------------------------------------------ |
+| **SIB**               | `static { }`          | Runs **once** when the class is loaded.                                              |
+| **IIB**               | `{ }`                 | Runs **every time** an object is created, before the constructor.                    |
+| **`this`**            | `this.name = name;`   | Refers to the current object's variables or calls another constructor with `this()`. |
+| **`super`**           | `super("Bangalore");` | Calls the parent class constructor or accesses parent members.                       |
+| **Constructor**       | `SBIUser(...)`        | Initializes the object when it is created.                                           |
+| **Method**            | `display()`           | Performs an action using the object's data.                                          |
+| **Static Variable**   | `objectCount`         | One shared copy for the entire class.                                                |
+| **Instance Variable** | `name`, `balance`     | Each object has its own copy.                                                        |
+
+
+
+               JVM Starts
+                    │
+                    ▼
+            Load ATM.class
+                    │
+                    ▼
+         Method Area (Class Area)
+     -----------------------------
+     bankName = State Bank of India
+     SIB executes ONCE
+     -----------------------------
+                    │
+                    ▼
+               main() starts
+                    │
+                    ▼
+          new ATM() creates atm1
+                    │
+                    ▼
+          Heap Memory
+     -----------------
+     ATM Object #1
+     -----------------
+                    │
+                    ▼
+          new ATM() creates atm2
+                    │
+                    ▼
+          Heap Memory
+     -----------------
+     ATM Object #2
+     -----------------
+     
+     Imagine a shopping mall:
+
+Every morning, the mall opens the main gate, turns on the lights, and starts the escalators once. This is like the Static Initialization Block (SIB).
+Every customer who enters gets a shopping cart. This is like the constructor, which runs for each new object.
+
+So remember:
+
+SIB = One-time class setup
+Constructor = Per-object initialization
+Method = Runs only when you call it
+
+
+ -- write a program to count numers of object created in the system
+ -- write a progrem order of execution IIB,SIB, SUPER ,THIS AND SOME METHOD 
+ 
+ 
+ 
+ count of numbers ==>  
+ 
+ 
+ 
+
+ 
+ 
