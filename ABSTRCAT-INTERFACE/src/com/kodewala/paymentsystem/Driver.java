@@ -13,14 +13,20 @@ public class Driver {
 	
 	
 	System.out.println();
+	System.out.println("==============================");
+
 	System.out.println("=======Card Payment========");
+	System.out.println("==============================");
+
+	
 	
 	Payment payment2 = new CardPayment();
 	paymentProcessor.processPayment(payment2);
 	
 	
-	System.out.println();
+	System.out.println("==============================");
 	System.out.println("=======Wallet Payment========");
+	System.out.println("==============================");
 	
 	Payment payment3 = new WalletPayment();
 	paymentProcessor.processPayment(payment3);
