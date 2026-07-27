@@ -89,52 +89,6 @@ And this problem was there from last?
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  | Element     | Naming Convention        | Example             |
 | ----------- | ------------------------ | ------------------- |
 | Package     | lowercase                | `com.tcs.employee`  |
